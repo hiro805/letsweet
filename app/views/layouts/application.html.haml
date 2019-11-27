@@ -2,7 +2,7 @@
 %html
   %head
     %meta{content: "text/html; charset=UTF-8", http: {equiv: "Content-Type" }}
-    %title Let'stweet
+    %title Let'sweet
     = stylesheet_link_tag 'application', media: 'all', data: { turbolinks: { track: true }}
     = javascript_include_tag 'application', data: { turbolinks: { track: true }}
     = csrf_meta_tags
@@ -19,11 +19,12 @@
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(wf, s);
       })();
+
   %body
     %header.header
       .header__bar.row
         %h1.grid-6
-          %a{href: "/"} Let'sweet
+          %a{href: "/"} Let'sweet 
         .user_nav.grid-6
           %a.post{href: "/tweets/new"} 投稿する
     = yield
