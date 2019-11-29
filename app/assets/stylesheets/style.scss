@@ -51,7 +51,7 @@ line-height: 1.57;
   letter-spacing: 0.15em;
   font-size: 16px;
   color: $dark;
-  font-family: 'Unica One', "Avenir", "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W6", "HIragino Kaku Gothic Pro W6", "HIragino Kaku Gothic Pro", Osaka, Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+  font-family: 'Amatic SC', cursive;
   margin: 0;
 }
 
@@ -221,7 +221,7 @@ div.contents.row {
     }
   }
   .new_user{
-  font-family: "游ゴシック", "YuGothic";
+    font-family: 'Amatic SC', cursive;
   }
   div.content_post {
     @include boxBase(20px 0 ,30px);
@@ -333,7 +333,7 @@ div.contents.row {
       @include boxBase(5px 0 15px,10px);
       border: 1px solid $gray;
       border-radius: 5px;
-      font-family: "游ゴシック", "YuGothic";
+      font-family: 'Amatic SC', cursive;
     }
     input[type="submit"] {
       @extend .transition;
