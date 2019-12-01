@@ -2,7 +2,10 @@
   - @tweets.each do |tweet|
     .content_post{style: "background-image: url(#{tweet.image});"}
       = simple_format(tweet.text)
-      %span.name= tweet.name
+      %span.name
+        %a{href: ""}
+          %span 投稿者
+          = tweet.user.nickname
   = paginate(@tweets)
 
 
