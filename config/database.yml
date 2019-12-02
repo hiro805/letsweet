@@ -52,3 +52,10 @@ production:
   database: Letsweet_production
   username: Letsweet
   password: <%= ENV['LETSWEET_DATABASE_PASSWORD'] %>
+
+production:
+
+  <<: *default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
