@@ -95,6 +95,7 @@ a {
     text-align: center;
     border-radius: 3px;
     display: inline-block;
+    font-family: serif;
   &:hover {
     border-color: lighten($accent, 15%);
     color: lighten($accent, 15%);
@@ -339,7 +340,7 @@ form {
     @include boxBase(5px 0 15px,10px);
     border: 1px solid $gray;
     border-radius: 5px;
-    font-family: "游ゴシック", "YuGothic";
+    font-family: serif;
   }
   input[type="submit"] {
     @extend .transition;
@@ -348,6 +349,7 @@ form {
     color: #fff;
     border: 0;
     font-size: 18px;
+    font-family: cursive;
     &:hover {
       background-color: lighten($accent, 10%);
     }
